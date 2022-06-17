@@ -1,5 +1,3 @@
-@import url(https://fonts.google.com/specimen/Lexend+Deca);
-@import url(https://fonts.google.com/specimen/Big+Shoulders+Display)
 body {
     background-color: hsl(0, 0%, 95%);
     }
@@ -14,15 +12,33 @@ main {
 
 .button {
     background-color: hsl(0, 0%, 95%);
-    border: none;
-    color: hsl(0, 0%, 95%)
-    padding: 15px;
     text-align: center;
     display: inline-block;
-    font-size: 15px;
-    margin: 20px;
+    font-size: 5px;
+    font-family: 'Lexend Deca', sans-serif;
   }
-  .button {border-radius: 15px;}
+  .button1 {
+    color: hsl(31, 77%, 52%);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+    border: none;
+  } 
+  .button2 {
+    color: hsl(184, 100%, 22%);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+    border: none;
+  }
+  .button3 {
+    color: hsl(179, 100%, 13%)
+    padding 10px;
+    margin: 20px;
+    border-radius: 25px;
+    border: none;
+  }
+  
   .left-box {
       background-color: hsl(31, 77%, 52%);
       border-radius: 5px; 0px; 5px; 0px;
@@ -38,12 +54,11 @@ main {
       border-radius: 5px;
       padding:2em
   }
-h3 {
-      font-family: Lexend Deca; 
+h2 {
+    color: hsl(0, 0%, 95%);  
+    font-family: 'Big Shoulders Display', cursive;
 }
 p {
-    color: hsla(0, 0%, 100%, 0.75)
-    font-family; Legend Deca;
-    font-weight: 400;
-    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
     }
